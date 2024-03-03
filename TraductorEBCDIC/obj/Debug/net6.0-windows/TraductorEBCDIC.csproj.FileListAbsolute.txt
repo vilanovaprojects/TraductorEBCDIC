@@ -1,0 +1,32 @@
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\bin\Debug\net6.0-windows\TraductorEBCDIC.exe
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\bin\Debug\net6.0-windows\TraductorEBCDIC.deps.json
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\bin\Debug\net6.0-windows\TraductorEBCDIC.runtimeconfig.json
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\bin\Debug\net6.0-windows\TraductorEBCDIC.dll
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\bin\Debug\net6.0-windows\TraductorEBCDIC.pdb
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.Form1.resources
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.csproj.GenerateResource.cache
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.AssemblyInfoInputs.cache
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.AssemblyInfo.cs
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.csproj.CoreCompileInputs.cache
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.dll
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\refint\TraductorEBCDIC.dll
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.pdb
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.genruntimeconfig.cache
+C:\Users\Moises\Documents\PROGRAMACION\MIS PROYECTOS\ASP.NET\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\ref\TraductorEBCDIC.dll
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\bin\Debug\net6.0-windows\TraductorEBCDIC.exe
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\bin\Debug\net6.0-windows\TraductorEBCDIC.deps.json
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\bin\Debug\net6.0-windows\TraductorEBCDIC.runtimeconfig.json
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\bin\Debug\net6.0-windows\TraductorEBCDIC.dll
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\bin\Debug\net6.0-windows\TraductorEBCDIC.pdb
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.Form1.resources
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.csproj.GenerateResource.cache
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.AssemblyInfoInputs.cache
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.AssemblyInfo.cs
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.csproj.CoreCompileInputs.cache
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.dll
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\refint\TraductorEBCDIC.dll
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.pdb
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.genruntimeconfig.cache
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\ref\TraductorEBCDIC.dll
