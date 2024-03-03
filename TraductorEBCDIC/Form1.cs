@@ -365,89 +365,89 @@ namespace TraductorEBCDIC
 
 
                         case 0x60:
-                            data[i] = 0x60;
+                            data[i] = 0x79;     //`
                             break;
                         case 0x61:
-                            data[i] = 0x61;
+                            data[i] = 0x81;     //a
                             break;
                         case 0x62:
-                            data[i] = 0x62;
+                            data[i] = 0x82;     //b
                             break;
                         case 0x63:
-                            data[i] = 0x63;
+                            data[i] = 0x83;     //c
                             break;
                         case 0x64:
-                            data[i] = 0x64;
+                            data[i] = 0x84;     //d
                             break;
                         case 0x65:
-                            data[i] = 0x65;
+                            data[i] = 0x85;     //e
                             break;
                         case 0x66:
-                            data[i] = 0x66;
+                            data[i] = 0x86;     //f
                             break;
                         case 0x67:
-                            data[i] = 0x67;
+                            data[i] = 0x87;     //g
                             break;
                         case 0x68:
-                            data[i] = 0x68;
+                            data[i] = 0x88;     //h
                             break;
                         case 0x69:
-                            data[i] = 0x69;
+                            data[i] = 0x89;     //i
                             break;
                         case 0x6a:
-                            data[i] = 0x6a;
+                            data[i] = 0x91;     //j
                             break;
                         case 0x6b:
-                            data[i] = 0x6b;
+                            data[i] = 0x92;     //k
                             break;
                         case 0x6c:
-                            data[i] = 0x6c;
+                            data[i] = 0x93;     //l
                             break;
                         case 0x6d:
-                            data[i] = 0x6d;
+                            data[i] = 0x94;     //m
                             break;
                         case 0x6e:
-                            data[i] = 0x6e;
+                            data[i] = 0x95;     //n
                             break;
                         case 0x6f:
-                            data[i] = 0x6f;
+                            data[i] = 0x96;     //o
                             break;
 
                         //77777777777777777777777777777777777777777777777777777777777777777777777777777
 
 
                         case 0x70:
-                            data[i] = 0x70;
+                            data[i] = 0x97;     //p
                             break;
                         case 0x71:
-                            data[i] = 0x71;
+                            data[i] = 0x98;     //q
                             break;
                         case 0x72:
-                            data[i] = 0x72;
+                            data[i] = 0x99;     //r
                             break;
                         case 0x73:
-                            data[i] = 0x73;
+                            data[i] = 0xa2;     //s
                             break;
                         case 0x74:
-                            data[i] = 0x74;
+                            data[i] = 0xa3;     //t
                             break;
                         case 0x75:
-                            data[i] = 0x75;
+                            data[i] = 0xa4;     //u
                             break;
                         case 0x76:
-                            data[i] = 0x76;
+                            data[i] = 0xa5;     //v
                             break;
                         case 0x77:
-                            data[i] = 0x77;
+                            data[i] = 0xa6;     //w
                             break;
                         case 0x78:
-                            data[i] = 0x78;
+                            data[i] = 0xa7;     //x
                             break;
                         case 0x79:
-                            data[i] = 0x79;
+                            data[i] = 0xa8;     //y
                             break;
                         case 0x7a:
-                            data[i] = 0x7a;
+                            data[i] = 0xa9;     //z
                             break;
                         case 0x7b:
                             data[i] = 0x7b;

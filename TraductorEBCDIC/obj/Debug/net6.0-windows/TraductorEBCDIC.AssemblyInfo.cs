@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TraductorEBCDIC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b1fcb7c00da1e5f2c77ff5665ae8e7b87aca221")]
 [assembly: System.Reflection.AssemblyProductAttribute("TraductorEBCDIC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TraductorEBCDIC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

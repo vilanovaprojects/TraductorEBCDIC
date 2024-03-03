@@ -30,3 +30,4 @@ C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBC
 C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.pdb
 C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.genruntimeconfig.cache
 C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\ref\TraductorEBCDIC.dll
+C:\Users\Moises\Documents\PROGRAMACION\WindowsForms\TraductorEBCDIC\TraductorEBCDIC\obj\Debug\net6.0-windows\TraductorEBCDIC.sourcelink.json
