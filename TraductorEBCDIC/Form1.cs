@@ -49,113 +49,112 @@ namespace TraductorEBCDIC
                     switch (data[i])
                     {
                         //00000000000000000000000000000000000000000000000000000000000000000000000000000
-                        //el caracter 0x0 se puede comentar completamente
-                        case 0x00:
-                            data[i] = 0x00;
-                            break;
-                        case 0x01:
-                            data[i] = 0x01;
-                            break;
-                        case 0x02:
-                            data[i] = 0x02;
-                            break;
-                        case 0x03:
-                            data[i] = 0x03;
-                            break;
-                        case 0x04:
-                            data[i] = 0x04;
-                            break;
-                        case 0x05:
-                            data[i] = 0x05;
-                            break;
-                        case 0x06:
-                            data[i] = 0x06;
-                            break;
-                        case 0x07:
-                            data[i] = 0x07;
-                            break;
-                        case 0x08:
-                            data[i] = 0x08;
-                            break;
-                        case 0x09:
-                            data[i] = 0x09;
-                            break;
-                        case 0x0a:
-                            data[i] = 0x0a;
-                            break;
-                        case 0x0b:
-                            data[i] = 0x0b;
-                            break;
-                        case 0x0c:
-                            data[i] = 0x0c;
-                            break;
-                        case 0x0d:
-                            data[i] = 0x0d;
-                            break;
-                        case 0x0e:
-                            data[i] = 0x0e;
-                            break;
-                        case 0x0f:
-                            data[i] = 0x0f;
-                            break;
+
+                        //case 0x00:
+                        //    data[i] = 0x00;
+                        //    break;
+                        //case 0x01:
+                        //    data[i] = 0x01;
+                        //    break;
+                        //case 0x02:
+                        //    data[i] = 0x02;
+                        //    break;
+                        //case 0x03:
+                        //    data[i] = 0x03;
+                        //    break;
+                        //case 0x04:
+                        //    data[i] = 0x04;
+                        //    break;
+                        //case 0x05:
+                        //    data[i] = 0x05;
+                        //    break;
+                        //case 0x06:
+                        //    data[i] = 0x06;
+                        //    break;
+                        //case 0x07:
+                        //    data[i] = 0x07;
+                        //    break;
+                        //case 0x08:
+                        //    data[i] = 0x08;
+                        //    break;
+                        //case 0x09:
+                        //    data[i] = 0x09;
+                        //    break;
+                        //case 0x0a:
+                        //    data[i] = 0x0a;
+                        //    break;
+                        //case 0x0b:
+                        //    data[i] = 0x0b;
+                        //    break;
+                        //case 0x0c:
+                        //    data[i] = 0x0c;
+                        //    break;
+                        //case 0x0d:
+                        //    data[i] = 0x0d;
+                        //    break;
+                        //case 0x0e:
+                        //    data[i] = 0x0e;
+                        //    break;
+                        //case 0x0f:
+                        //    data[i] = 0x0f;
+                        //    break;
 
                         //11111111111111111111111111111111111111111111111111111111111111111111111111111
-                        //el caracter 0x1 se puede comentar completamente
 
-                        case 0x10:
-                            data[i] = 0x10;
-                            break;
-                        case 0x11:
-                            data[i] = 0x11;
-                            break;
-                        case 0x12:
-                            data[i] = 0x12;
-                            break;
-                        case 0x13:
-                            data[i] = 0x13;
-                            break;
-                        case 0x14:
-                            data[i] = 0x14;
-                            break;
-                        case 0x15:
-                            data[i] = 0x15;
-                            break;
-                        case 0x16:
-                            data[i] = 0x16;
-                            break;
-                        case 0x17:
-                            data[i] = 0x17;
-                            break;
-                        case 0x18:
-                            data[i] = 0x18;
-                            break;
-                        case 0x19:
-                            data[i] = 0x19;
-                            break;
-                        case 0x1a:
-                            data[i] = 0x1a;
-                            break;
-                        case 0x1b:
-                            data[i] = 0x1b;
-                            break;
-                        case 0x1c:
-                            data[i] = 0x1c;
-                            break;
-                        case 0x1d:
-                            data[i] = 0x1d;
-                            break;
-                        case 0x1e:
-                            data[i] = 0x1e;
-                            break;
-                        case 0x1f:
-                            data[i] = 0x1f;
-                            break;
+                        //case 0x10:
+                        //    data[i] = 0x10;
+                        //    break;
+                        //case 0x11:
+                        //    data[i] = 0x11;
+                        //    break;
+                        //case 0x12:
+                        //    data[i] = 0x12;
+                        //    break;
+                        //case 0x13:
+                        //    data[i] = 0x13;
+                        //    break;
+                        //case 0x14:
+                        //    data[i] = 0x14;
+                        //    break;
+                        //case 0x15:
+                        //    data[i] = 0x15;
+                        //    break;
+                        //case 0x16:
+                        //    data[i] = 0x16;
+                        //    break;
+                        //case 0x17:
+                        //    data[i] = 0x17;
+                        //    break;
+                        //case 0x18:
+                        //    data[i] = 0x18;
+                        //    break;
+                        //case 0x19:
+                        //    data[i] = 0x19;
+                        //    break;
+                        //case 0x1a:
+                        //    data[i] = 0x1a;
+                        //    break;
+                        //case 0x1b:
+                        //    data[i] = 0x1b;
+                        //    break;
+                        //case 0x1c:
+                        //    data[i] = 0x1c;
+                        //    break;
+                        //case 0x1d:
+                        //    data[i] = 0x1d;
+                        //    break;
+                        //case 0x1e:
+                        //    data[i] = 0x1e;
+                        //    break;
+                        //case 0x1f:
+                        //    data[i] = 0x1f;
+                        //    break;
 
                         //22222222222222222222222222222222222222222222222222222222222222222222222222222
 
-                        case 0x20:
-                            data[i] = 0x20;
-                            break;
+                        //case 0x20:
+                        //    data[i] = 0x20;
+                        //    break;
                         case 0x21:
                             data[i] = 0xbb;     //!
                             break;
@@ -458,126 +457,126 @@ namespace TraductorEBCDIC
                             data[i] = 0x4f;     //|
                             break;
                         case 0x7d:
-                            data[i] = 0xd0;     //}~
+                            data[i] = 0xd0;     //}
                             break;
                         case 0x7e:
                             data[i] = 0xbd;     //~
                             break;
-                        case 0x7f:
-                            data[i] = 0x7f;
-                            break;
+                        //case 0x7f:
+                        //    data[i] = 0x7f;
+                        //    break;
 
                         //88888888888888888888888888888888888888888888888888888888888888888888888888888
 
 
-                        case 0x80:
-                            data[i] = 0x80;
-                            break;
-                        case 0x81:
-                            data[i] = 0x81;
-                            break;
-                        case 0x82:
-                            data[i] = 0x82;
-                            break;
-                        case 0x83:
-                            data[i] = 0x83;
-                            break;
-                        case 0x84:
-                            data[i] = 0x84;
-                            break;
-                        case 0x85:
-                            data[i] = 0x85;
-                            break;
-                        case 0x86:
-                            data[i] = 0x86;
-                            break;
-                        case 0x87:
-                            data[i] = 0x87;
-                            break;
-                        case 0x88:
-                            data[i] = 0x88;
-                            break;
-                        case 0x89:
-                            data[i] = 0x89;
-                            break;
-                        case 0x8a:
-                            data[i] = 0x8a;
-                            break;
-                        case 0x8b:
-                            data[i] = 0x8b;
-                            break;
-                        case 0x8c:
-                            data[i] = 0x8c;
-                            break;
-                        case 0x8d:
-                            data[i] = 0x8d;
-                            break;
-                        case 0x8e:
-                            data[i] = 0x8e;
-                            break;
-                        case 0x8f:
-                            data[i] = 0x8f;
-                            break;
+                        //case 0x80:
+                        //    data[i] = 0x80;
+                        //    break;
+                        //case 0x81:
+                        //    data[i] = 0x81;
+                        //    break;
+                        //case 0x82:
+                        //    data[i] = 0x82;
+                        //    break;
+                        //case 0x83:
+                        //    data[i] = 0x83;
+                        //    break;
+                        //case 0x84:
+                        //    data[i] = 0x84;
+                        //    break;
+                        //case 0x85:
+                        //    data[i] = 0x85;
+                        //    break;
+                        //case 0x86:
+                        //    data[i] = 0x86;
+                        //    break;
+                        //case 0x87:
+                        //    data[i] = 0x87;
+                        //    break;
+                        //case 0x88:
+                        //    data[i] = 0x88;
+                        //    break;
+                        //case 0x89:
+                        //    data[i] = 0x89;
+                        //    break;
+                        //case 0x8a:
+                        //    data[i] = 0x8a;
+                        //    break;
+                        //case 0x8b:
+                        //    data[i] = 0x8b;
+                        //    break;
+                        //case 0x8c:
+                        //    data[i] = 0x8c;
+                        //    break;
+                        //case 0x8d:
+                        //    data[i] = 0x8d;
+                        //    break;
+                        //case 0x8e:
+                        //    data[i] = 0x8e;
+                        //    break;
+                        //case 0x8f:
+                        //    data[i] = 0x8f;
+                        //    break;
 
                         //99999999999999999999999999999999999999999999999999999999999999999999999999999
 
 
-                        case 0x90:
-                            data[i] = 0x90;
-                            break;
-                        case 0x91:
-                            data[i] = 0x91;
-                            break;
-                        case 0x92:
-                            data[i] = 0x92;
-                            break;
-                        case 0x93:
-                            data[i] = 0x93;
-                            break;
-                        case 0x94:
-                            data[i] = 0x94;
-                            break;
-                        case 0x95:
-                            data[i] = 0x95;
-                            break;
-                        case 0x96:
-                            data[i] = 0x96;
-                            break;
-                        case 0x97:
-                            data[i] = 0x97;
-                            break;
-                        case 0x98:
-                            data[i] = 0x98;
-                            break;
-                        case 0x99:
-                            data[i] = 0x99;
-                            break;
-                        case 0x9a:
-                            data[i] = 0x9a;
-                            break;
-                        case 0x9b:
-                            data[i] = 0x9b;
-                            break;
-                        case 0x9c:
-                            data[i] = 0x9c;
-                            break;
-                        case 0x9d:
-                            data[i] = 0x9d;
-                            break;
-                        case 0x9e:
-                            data[i] = 0x9e;
-                            break;
-                        case 0x9f:
-                            data[i] = 0x9f;
-                            break;
+                        //case 0x90:
+                        //    data[i] = 0x90;
+                        //    break;
+                        //case 0x91:
+                        //    data[i] = 0x91;
+                        //    break;
+                        //case 0x92:
+                        //    data[i] = 0x92;
+                        //    break;
+                        //case 0x93:
+                        //    data[i] = 0x93;
+                        //    break;
+                        //case 0x94:
+                        //    data[i] = 0x94;
+                        //    break;
+                        //case 0x95:
+                        //    data[i] = 0x95;
+                        //    break;
+                        //case 0x96:
+                        //    data[i] = 0x96;
+                        //    break;
+                        //case 0x97:
+                        //    data[i] = 0x97;
+                        //    break;
+                        //case 0x98:
+                        //    data[i] = 0x98;
+                        //    break;
+                        //case 0x99:
+                        //    data[i] = 0x99;
+                        //    break;
+                        //case 0x9a:
+                        //    data[i] = 0x9a;
+                        //    break;
+                        //case 0x9b:
+                        //    data[i] = 0x9b;
+                        //    break;
+                        //case 0x9c:
+                        //    data[i] = 0x9c;
+                        //    break;
+                        //case 0x9d:
+                        //    data[i] = 0x9d;
+                        //    break;
+                        //case 0x9e:
+                        //    data[i] = 0x9e;
+                        //    break;
+                        //case 0x9f:
+                        //    data[i] = 0x9f;
+                        //    break;
 
 
                         //aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
-                        case 0xa0:
-                            data[i] = 0xa0;
-                            break;
+                        //case 0xa0:
+                        //    data[i] = 0xa0;
+                        //    break;
                         case 0xa1:
                             data[i] = 0xaa;     //¡
                             break;
@@ -840,52 +839,52 @@ namespace TraductorEBCDIC
 
 
                         case 0xf0:
-                            data[i] = 0xf0;
+                            data[i] = 0x8c;     //ğ
                             break;
                         case 0xf1:
-                            data[i] = 0xf1;
+                            data[i] = 0x6a;     //ñ
                             break;
                         case 0xf2:
-                            data[i] = 0xf2;
+                            data[i] = 0xcd;     //ò
                             break;
                         case 0xf3:
-                            data[i] = 0xf3;
+                            data[i] = 0xce;     //ó
                             break;
                         case 0xf4:
-                            data[i] = 0xf4;
+                            data[i] = 0xcb;     //ô
                             break;
                         case 0xf5:
-                            data[i] = 0xf5;
+                            data[i] = 0xcf;     //õ
                             break;
                         case 0xf6:
-                            data[i] = 0xf6;
+                            data[i] = 0xcc;     //ö
                             break;
                         case 0xf7:
-                            data[i] = 0xf7;
+                            data[i] = 0xe1;     //÷
                             break;
                         case 0xf8:
-                            data[i] = 0xf8;
+                            data[i] = 0x70;     //ø
                             break;
                         case 0xf9:
-                            data[i] = 0xf9;
+                            data[i] = 0xdd;     //ù
                             break;
                         case 0xfa:
-                            data[i] = 0xfa;
+                            data[i] = 0xde;     //ú
                             break;
                         case 0xfb:
-                            data[i] = 0xfb;
+                            data[i] = 0xdb;     //û
                             break;
                         case 0xfc:
-                            data[i] = 0xfc;
+                            data[i] = 0xdc;     //ü
                             break;
                         case 0xfd:
-                            data[i] = 0xfd;
+                            data[i] = 0x8d;     //ı
                             break;
                         case 0xfe:
-                            data[i] = 0xfe;
+                            data[i] = 0x8e;     //ş
                             break;
                         case 0xff:
-                            data[i] = 0xff;
+                            data[i] = 0xdf;     //ÿ
                             break;
 
                     }
