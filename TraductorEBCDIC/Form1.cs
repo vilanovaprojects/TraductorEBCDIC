@@ -49,6 +49,7 @@ namespace TraductorEBCDIC
                     switch (data[i])
                     {
                         //00000000000000000000000000000000000000000000000000000000000000000000000000000
+                        //el caracter 0x0 se puede comentar completamente
                         case 0x00:
                             data[i] = 0x00;
                             break;
@@ -99,6 +100,7 @@ namespace TraductorEBCDIC
                             break;
 
                         //11111111111111111111111111111111111111111111111111111111111111111111111111111
+                        //el caracter 0x1 se puede comentar completamente
 
                         case 0x10:
                             data[i] = 0x10;
@@ -155,49 +157,49 @@ namespace TraductorEBCDIC
                             data[i] = 0x20;
                             break;
                         case 0x21:
-                            data[i] = 0x21;
+                            data[i] = 0xbb;     //!
                             break;
                         case 0x22:
-                            data[i] = 0x22;
+                            data[i] = 0x7f;     //"
                             break;
                         case 0x23:
-                            data[i] = 0x23;
+                            data[i] = 0x69;     //#
                             break;
                         case 0x24:
-                            data[i] = 0x24;
+                            data[i] = 0x5b;     //$
                             break;
                         case 0x25:
-                            data[i] = 0x25;
+                            data[i] = 0x6c;     //%
                             break;
                         case 0x26:
-                            data[i] = 0x26;
+                            data[i] = 0x50;     //&
                             break;
                         case 0x27:
-                            data[i] = 0x27;
+                            data[i] = 0x7d;     //'
                             break;
                         case 0x28:
-                            data[i] = 0x28;
+                            data[i] = 0x4d;     //(
                             break;
                         case 0x29:
-                            data[i] = 0x29;
+                            data[i] = 0x5d;     //)
                             break;
                         case 0x2a:
-                            data[i] = 0x2a;
+                            data[i] = 0x5c;     //*
                             break;
                         case 0x2b:
-                            data[i] = 0x2b;
+                            data[i] = 0x4e;     //+
                             break;
                         case 0x2c:
-                            data[i] = 0x2c;
+                            data[i] = 0x6b;     //,
                             break;
                         case 0x2d:
-                            data[i] = 0x2d;
+                            data[i] = 0x60;     //-
                             break;
                         case 0x2e:
-                            data[i] = 0x2e;
+                            data[i] = 0x4b;     //.
                             break;
                         case 0x2f:
-                            data[i] = 0x2f;
+                            data[i] = 0x61;     //\
                             break;
 
 
@@ -205,52 +207,52 @@ namespace TraductorEBCDIC
 
 
                         case 0x30:
-                            data[i] = 0x30;
+                            data[i] = 0xf0;     //0
                             break;
                         case 0x31:
-                            data[i] = 0x31;
+                            data[i] = 0xf1;     //1
                             break;
                         case 0x32:
-                            data[i] = 0x32;
+                            data[i] = 0xf2;     //2
                             break;
                         case 0x33:
-                            data[i] = 0x33;
+                            data[i] = 0xf3;     //3
                             break;
                         case 0x34:
-                            data[i] = 0x34;
+                            data[i] = 0x34;     //4
                             break;
                         case 0x35:
-                            data[i] = 0x35;
+                            data[i] = 0xf5;     //5
                             break;
                         case 0x36:
-                            data[i] = 0x36;
+                            data[i] = 0xf6;     //6
                             break;
                         case 0x37:
-                            data[i] = 0x37;
+                            data[i] = 0xf7;     //7
                             break;
                         case 0x38:
-                            data[i] = 0x38;
+                            data[i] = 0xf8;     //8
                             break;
                         case 0x39:
-                            data[i] = 0x39;
+                            data[i] = 0xf9;     //9
                             break;
                         case 0x3a:
-                            data[i] = 0x3a;
+                            data[i] = 0x7a;     //:
                             break;
                         case 0x3b:
-                            data[i] = 0x3b;
+                            data[i] = 0x5e;     //;
                             break;
                         case 0x3c:
-                            data[i] = 0x3c;
+                            data[i] = 0x4c;     //<
                             break;
                         case 0x3d:
-                            data[i] = 0x3d;
+                            data[i] = 0x7e;     //=
                             break;
                         case 0x3e:
-                            data[i] = 0x3e;
+                            data[i] = 0x6e;     //<
                             break;
                         case 0x3f:
-                            data[i] = 0x3f;
+                            data[i] = 0x6f;     //?
                             break;
 
 
@@ -258,52 +260,52 @@ namespace TraductorEBCDIC
 
 
                         case 0x40:
-                            data[i] = 0x40;
+                            data[i] = 0x7c;     //@
                             break;
                         case 0x41:
-                            data[i] = 0x41;
+                            data[i] = 0xc1;     //A
                             break;
                         case 0x42:
-                            data[i] = 0x42;
+                            data[i] = 0xc2;     //B
                             break;
                         case 0x43:
-                            data[i] = 0x43;
+                            data[i] = 0xc3;     //c
                             break;
                         case 0x44:
-                            data[i] = 0x44;
+                            data[i] = 0xc4;     //D
                             break;
                         case 0x45:
-                            data[i] = 0x45;
+                            data[i] = 0xc5;     //E
                             break;
                         case 0x46:
-                            data[i] = 0x46;
+                            data[i] = 0xc6;     //F
                             break;
                         case 0x47:
-                            data[i] = 0x47;
+                            data[i] = 0xc7;     //G
                             break;
                         case 0x48:
-                            data[i] = 0x48;
+                            data[i] = 0xc8;     //H
                             break;
                         case 0x49:
-                            data[i] = 0x49;
+                            data[i] = 0xc9;     //I
                             break;
                         case 0x4a:
-                            data[i] = 0x4a;
+                            data[i] = 0xd1;     //J
                             break;
                         case 0x4b:
-                            data[i] = 0x4b;
+                            data[i] = 0xd2;     //K
                             break;
                         case 0x4c:
-                            data[i] = 0x4c;
+                            data[i] = 0xd3;     //L
                             break;
                         case 0x4d:
-                            data[i] = 0x4d;
+                            data[i] = 0xd4;     //M
                             break;
                         case 0x4e:
-                            data[i] = 0x4e;
+                            data[i] = 0xd5;     //N
                             break;
                         case 0x4f:
-                            data[i] = 0x4f;
+                            data[i] = 0xd6;     //O
                             break;
 
 
@@ -311,52 +313,52 @@ namespace TraductorEBCDIC
 
 
                         case 0x50:
-                            data[i] = 0x50;
+                            data[i] = 0xd7;     //P
                             break;
                         case 0x51:
-                            data[i] = 0x51;
+                            data[i] = 0xd8;     //Q
                             break;
                         case 0x52:
-                            data[i] = 0x52;
+                            data[i] = 0xd9;     //R
                             break;
                         case 0x53:
-                            data[i] = 0x53;
+                            data[i] = 0xe2;     //S
                             break;
                         case 0x54:
-                            data[i] = 0x54;
+                            data[i] = 0xe3;     //T
                             break;
                         case 0x55:
-                            data[i] = 0x55;
+                            data[i] = 0xe4;     //U
                             break;
                         case 0x56:
-                            data[i] = 0x56;
+                            data[i] = 0xe5;     //V
                             break;
                         case 0x57:
-                            data[i] = 0x57;
+                            data[i] = 0xe6;     //W
                             break;
                         case 0x58:
-                            data[i] = 0x58;
+                            data[i] = 0xe7;     //X
                             break;
                         case 0x59:
-                            data[i] = 0x59;
+                            data[i] = 0xe8;     //Y
                             break;
                         case 0x5a:
-                            data[i] = 0x5a;
+                            data[i] = 0xe9;     //Z
                             break;
                         case 0x5b:
-                            data[i] = 0x5b;
+                            data[i] = 0x4a;     //[
                             break;
                         case 0x5c:
-                            data[i] = 0x5c;
+                            data[i] = 0xe0;     ///
                             break;
                         case 0x5d:
-                            data[i] = 0x5d;
+                            data[i] = 0x5a;     //]
                             break;
                         case 0x5e:
-                            data[i] = 0x5e;
+                            data[i] = 0xba;     //^
                             break;
                         case 0x5f:
-                            data[i] = 0x5f;
+                            data[i] = 0x6d;     //_
                             break;
 
 
@@ -450,16 +452,16 @@ namespace TraductorEBCDIC
                             data[i] = 0xa9;     //z
                             break;
                         case 0x7b:
-                            data[i] = 0x7b;
+                            data[i] = 0xc0;     //{
                             break;
                         case 0x7c:
-                            data[i] = 0x7c;
+                            data[i] = 0x4f;     //|
                             break;
                         case 0x7d:
-                            data[i] = 0x7d;
+                            data[i] = 0xd0;     //}~
                             break;
                         case 0x7e:
-                            data[i] = 0x7e;
+                            data[i] = 0xbd;     //~
                             break;
                         case 0x7f:
                             data[i] = 0x7f;
@@ -577,101 +579,101 @@ namespace TraductorEBCDIC
                             data[i] = 0xa0;
                             break;
                         case 0xa1:
-                            data[i] = 0xa1;
+                            data[i] = 0xaa;     //¡
                             break;
                         case 0xa2:
-                            data[i] = 0xa2;
+                            data[i] = 0xb0;     //¢
                             break;
                         case 0xa3:
-                            data[i] = 0xa3;
+                            data[i] = 0xb1;     //£
                             break;
                         case 0xa4:
-                            data[i] = 0xa4;
+                            data[i] = 0x9f;     //¤       este es el símbolo que se puede cambiar por €
                             break;
                         case 0xa5:
-                            data[i] = 0xa5;
+                            data[i] = 0xb2;     //¥
                             break;
                         case 0xa6:
-                            data[i] = 0xa6;
+                            data[i] = 0x49;     //¦
                             break;
                         case 0xa7:
-                            data[i] = 0xa7;
+                            data[i] = 0xb5;     //§
                             break;
                         case 0xa8:
-                            data[i] = 0xa8;
+                            data[i] = 0xa1;     //¨
                             break;
                         case 0xa9:
-                            data[i] = 0xa9;
+                            data[i] = 0xb4;     //©
                             break;
                         case 0xaa:
-                            data[i] = 0xaa;
+                            data[i] = 0x9a;     //ª
                             break;
                         case 0xab:
-                            data[i] = 0xab;
+                            data[i] = 0x8a;     //«
                             break;
                         case 0xac:
-                            data[i] = 0xac;
+                            data[i] = 0x5f;     //¬
                             break;
                         case 0xad:
-                            data[i] = 0xad;
+                            data[i] = 0xca;     //SHY
                             break;
                         case 0xae:
-                            data[i] = 0xae;
+                            data[i] = 0xaf;     //®
                             break;
                         case 0xaf:
-                            data[i] = 0xaf;
+                            data[i] = 0xaf;     //¯
                             break;
 
                         //bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 
                         case 0xb0:
-                            data[i] = 0xb0;
+                            data[i] = 0x90;     //°
                             break;
                         case 0xb1:
-                            data[i] = 0xb1;
+                            data[i] = 0x8f;     //±
                             break;
                         case 0xb2:
-                            data[i] = 0xb2;
+                            data[i] = 0xea;     //²
                             break;
                         case 0xb3:
-                            data[i] = 0xb3;
+                            data[i] = 0xfa;     //³
                             break;
                         case 0xb4:
-                            data[i] = 0xb4;
+                            data[i] = 0xbe;     //´
                             break;
                         case 0xb5:
-                            data[i] = 0xb5;
+                            data[i] = 0xa0;     //µ
                             break;
                         case 0xb6:
-                            data[i] = 0xb6;
+                            data[i] = 0xb6;     //¶
                             break;
                         case 0xb7:
-                            data[i] = 0xb7;
+                            data[i] = 0xb3;     //·
                             break;
                         case 0xb8:
-                            data[i] = 0xb8;
+                            data[i] = 0x9d;     //¸
                             break;
                         case 0xb9:
-                            data[i] = 0xb9;
+                            data[i] = 0xda;     //¹
                             break;
                         case 0xba:
-                            data[i] = 0xba;
+                            data[i] = 0x9b;     //º
                             break;
                         case 0xbb:
-                            data[i] = 0xbb;
+                            data[i] = 0x8b;     //»
                             break;
                         case 0xbc:
-                            data[i] = 0xbc;
+                            data[i] = 0xb7;     //¼
                             break;
                         case 0xbd:
-                            data[i] = 0xbd;
+                            data[i] = 0xb8;     //½
                             break;
                         case 0xbe:
-                            data[i] = 0xbe;
+                            data[i] = 0xb9;     //¾
                             break;
                         case 0xbf:
-                            data[i] = 0xbf;
+                            data[i] = 0xab;     //¿
                             break;
 
 
@@ -679,52 +681,52 @@ namespace TraductorEBCDIC
 
 
                         case 0xc0:
-                            data[i] = 0xc0;
+                            data[i] = 0x6a;     //À
                             break;
                         case 0xc1:
-                            data[i] = 0xc1;
+                            data[i] = 0x65;     //Á
                             break;
                         case 0xc2:
-                            data[i] = 0xc2;
+                            data[i] = 0x62;     //Â
                             break;
                         case 0xc3:
-                            data[i] = 0xc3;
+                            data[i] = 0x66;     //Ã
                             break;
                         case 0xc4:
-                            data[i] = 0xc4;
+                            data[i] = 0x63;     //Ä
                             break;
                         case 0xc5:
-                            data[i] = 0xc5;
+                            data[i] = 0x67;     //Å
                             break;
                         case 0xc6:
-                            data[i] = 0xc6;
+                            data[i] = 0x9e;     //Æ
                             break;
                         case 0xc7:
-                            data[i] = 0xc7;
+                            data[i] = 0x68;     //Ç
                             break;
                         case 0xc8:
-                            data[i] = 0xc8;
+                            data[i] = 0x74;     //È
                             break;
                         case 0xc9:
-                            data[i] = 0xc9;
+                            data[i] = 0x71;     //É
                             break;
                         case 0xca:
-                            data[i] = 0xca;
+                            data[i] = 0x72;     //Ê
                             break;
                         case 0xcb:
-                            data[i] = 0xcb;
+                            data[i] = 0x73;     //Ë
                             break;
                         case 0xcc:
-                            data[i] = 0xcc;
+                            data[i] = 0x78;     //Ì
                             break;
                         case 0xcd:
-                            data[i] = 0xcd;
+                            data[i] = 0x75;     //Í
                             break;
                         case 0xce:
-                            data[i] = 0xce;
+                            data[i] = 0x76;     //Î
                             break;
                         case 0xcf:
-                            data[i] = 0xcf;
+                            data[i] = 0x77;     //Ï
                             break;
 
 
@@ -732,52 +734,52 @@ namespace TraductorEBCDIC
 
 
                         case 0xd0:
-                            data[i] = 0xd0;
+                            data[i] = 0xac;     //Ğ
                             break;
                         case 0xd1:
-                            data[i] = 0xd1;
+                            data[i] = 0x7b;     //Ñ
                             break;
                         case 0xd2:
-                            data[i] = 0xd2;
+                            data[i] = 0xed;     //Ò
                             break;
                         case 0xd3:
-                            data[i] = 0xd3;
+                            data[i] = 0xee;     //Ó
                             break;
                         case 0xd4:
-                            data[i] = 0xd4;
+                            data[i] = 0xeb;     //Ô
                             break;
                         case 0xd5:
-                            data[i] = 0xd5;
+                            data[i] = 0xef;     //Õ
                             break;
                         case 0xd6:
-                            data[i] = 0xd6;
+                            data[i] = 0xec;     //Ö
                             break;
                         case 0xd7:
-                            data[i] = 0xd7;
+                            data[i] = 0xbf;     //×
                             break;
                         case 0xd8:
-                            data[i] = 0xd8;
+                            data[i] = 0x80;     //Ø
                             break;
                         case 0xd9:
-                            data[i] = 0xd9;
+                            data[i] = 0xfd;     //Ù
                             break;
                         case 0xda:
-                            data[i] = 0xda;
+                            data[i] = 0xfe;     //Ú
                             break;
                         case 0xdb:
-                            data[i] = 0xdb;
+                            data[i] = 0xfb;     //Û
                             break;
                         case 0xdc:
-                            data[i] = 0xdc;
+                            data[i] = 0xfc;     //Ü
                             break;
                         case 0xdd:
-                            data[i] = 0xdd;
+                            data[i] = 0xad;     //İ
                             break;
                         case 0xde:
-                            data[i] = 0xde;
+                            data[i] = 0xae;     //Ş
                             break;
                         case 0xdf:
-                            data[i] = 0xdf;
+                            data[i] = 0x59;     //ß
                             break;
 
 
@@ -785,52 +787,52 @@ namespace TraductorEBCDIC
 
 
                         case 0xe0:
-                            data[i] = 0xe0;
+                            data[i] = 0x44;     //à
                             break;
                         case 0xe1:
-                            data[i] = 0xe1;
+                            data[i] = 0x45;     //á
                             break;
                         case 0xe2:
-                            data[i] = 0xe2;
+                            data[i] = 0x42;     //â
                             break;
                         case 0xe3:
-                            data[i] = 0xe3;
+                            data[i] = 0x46;     //ã
                             break;
                         case 0xe4:
-                            data[i] = 0xe4;
+                            data[i] = 0x43;     //ä
                             break;
                         case 0xe5:
-                            data[i] = 0xe5;
+                            data[i] = 0x47;     //å
                             break;
                         case 0xe6:
-                            data[i] = 0xe6;
+                            data[i] = 0x9c;     //æ
                             break;
                         case 0xe7:
-                            data[i] = 0xe7;
+                            data[i] = 0x48;     //ç
                             break;
                         case 0xe8:
-                            data[i] = 0xe8;
+                            data[i] = 0x54;     //è
                             break;
                         case 0xe9:
-                            data[i] = 0xe9;
+                            data[i] = 0x51;     //é
                             break;
                         case 0xea:
-                            data[i] = 0xea;
+                            data[i] = 0x52;     //ê
                             break;
                         case 0xeb:
-                            data[i] = 0xeb;
+                            data[i] = 0x53;     //ë
                             break;
                         case 0xec:
-                            data[i] = 0xec;
+                            data[i] = 0x58;     //ì
                             break;
                         case 0xed:
-                            data[i] = 0xed;
+                            data[i] = 0x55;     //í
                             break;
                         case 0xee:
-                            data[i] = 0xee;
+                            data[i] = 0x56;     //î
                             break;
                         case 0xef:
-                            data[i] = 0xef;
+                            data[i] = 0x57;     //ï
                             break;
 
 
